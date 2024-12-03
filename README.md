@@ -30,15 +30,32 @@ This project identifies a specific dog from a set of dog images provided by the 
 ---
 
 ## 📊 Example Output
-Tabular Results (CSV):
+The Dog Finder Program successfully identifies the most similar dog image from a dataset based on a given query image. The results are presented in both a tabular format and a bar graph for clear visualization.
+
+1️⃣ Tabular Results
+The program outputs a table that lists the similarity scores between the query image and each image in the dataset. These scores range from 0 to 1, where a score closer to 1 indicates a higher similarity.
 
 Query Image	image1.jpg	image2.jpg	image3.jpg	image4.jpg	image5.jpg
 sample_data/sample1.jpg	0.89	0.76	0.92	0.65	0.81
 sample_data/sample2.jpg	0.75	0.88	0.67	0.80	0.74
 sample_data/sample3.jpg	0.68	0.72	0.95	0.78	0.83
-Bar Graph Results:
 
-Below is an example bar graph showing the similarity between sample1.jpg and the dataset images.
+This table clearly indicates which dataset image is the most similar for each query image.
+
+2️⃣ Graphical Results
+For each query image, a bar graph is generated to visualize the similarity scores. The x-axis represents the dataset images, while the y-axis represents the similarity scores. This allows for quick identification of the closest match.
+
+
+![image](https://github.com/user-attachments/assets/26a0d8f7-0da4-42ca-adec-969c3f6fb90a)
+
+![image](https://github.com/user-attachments/assets/3a917687-6753-4487-8062-54b2909b189c)
+
+![image](https://github.com/user-attachments/assets/47a7c003-fbb6-47e1-ac0b-878406365b77)
+
+3️⃣ Observations
+The program efficiently distinguishes between visually similar dogs by analyzing their external features.
+High similarity scores (close to 1) indicate a strong match, while lower scores suggest less similarity.
+The combination of numerical and graphical outputs ensures clarity and aids in decision-making.
 
 ---
 
